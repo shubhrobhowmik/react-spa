@@ -1,0 +1,5 @@
+# Add files here to ignore them from eslint
+dist
+node_modules
+build
+pnpm-lock.yaml
