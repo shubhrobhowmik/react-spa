@@ -18,7 +18,11 @@ function App() {
 			</div>
 			<p className="underline font-thin">Hello Vite + React!</p>
 			<div className="card">
-				<button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
+				{/* <button onClick={() => setCount((count) => count + 1)}>count is {count}</button> */}
+				<button type="button" onClick={() => setCount((count) => count + 1)}>
+					<p>count is:</p>
+					<p>{count}</p>
+				</button>
 				<p>
 					Edit <code>src/App.tsx</code> and save to test HMR
 				</p>
